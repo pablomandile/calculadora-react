@@ -11,7 +11,7 @@ function App() {
   const [input, setInput] = useState('');
 
   const agregarInput = valor => {
-    setInput(input + valor);
+      setInput(input + valor);
   };
 
   const calcularResultado = () =>{
@@ -19,7 +19,7 @@ function App() {
       setInput(evaluate(input));
     } 
   };
-
+  
 
   return (
     <div className="App">

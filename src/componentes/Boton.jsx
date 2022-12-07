@@ -2,7 +2,7 @@ import React from "react";
 import '../css/Boton.css';
 
 const esOperador = valor =>{
-   return isNaN(valor) && (valor != '.') && (valor != '=');
+  return isNaN(valor) && (valor !== '.') && (valor !== '=');   
 };
 
 function Boton(props) {
