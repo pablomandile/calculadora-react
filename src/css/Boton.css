@@ -26,3 +26,10 @@
 .operador:hover{
   background-color: #ff6600;
 }
+
+/* .doble {
+  flex: 1 2;
+} */
+.Boton-contenedor_item:nth-child(2) {
+  flex: 2;
+}
